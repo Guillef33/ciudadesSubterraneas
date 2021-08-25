@@ -1,0 +1,378 @@
+@font-face {
+    font-family: ciudades;
+    src: url(../images/font.otf);
+}
+
+body{
+	overflow-x: hidden;
+    color: #000;
+}
+
+p,
+a {
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: sans-serif;
+    font-size: 13px;
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+
+a{
+	color: #000;
+}
+
+a:hover{
+    color: #000;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+    line-height: 20px;
+}
+
+.logo{
+	height: 100px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.header,
+.navbar-default,
+.footer {
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+
+.row.separator-top, .row.separator-bottom{
+	padding: 40px 0px;
+}
+
+.separator-top {
+    border-top: 1px solid #bbb;
+}
+
+.separator-bottom {
+    border-bottom: 1px solid #bbb;
+}
+
+.mini-separator {
+    height: 1px;
+    background-color: #bbb;
+    margin: 20px 0px;
+}
+
+.navbar-header {
+    float: none;
+    text-align: center;
+}
+
+.navbar-brand {
+    float: none;
+}
+
+.navbar-default {
+    background-color: transparent;
+    padding: 20px 0px;
+}
+
+
+/*.navbar-default a{
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}*/
+
+.navbar-nav a, .navbar-nav p{
+	font-weight: bold;
+}
+
+.navbar-collapse{
+    position: relative;
+}
+
+.navbar-collapse .idiomas{
+/*    position: absolute;
+    top: 0;
+    margin-top: -30px;
+    right: 0;*/
+}
+
+.idiomas a{
+    cursor: pointer;
+}
+
+.idiomas .notUsed{
+    text-decoration: line-through;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: inherit;
+}
+
+li.active a{
+	color: #777 !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: #666;
+}
+
+.novedades-imagen{
+	height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nosotros-foto {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 40px 0px;
+}
+
+
+.pelicula-foto {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-color: #EEE;
+}
+
+/* .pelicula:last-child .pelicula-foto{
+  background-position: left;
+} */
+
+
+
+.pelicula{
+	margin-bottom: 40px;
+    max-height: 290px;
+}
+
+.pelicula:hover p{
+    font-weight: bold;
+}
+
+/* .pelicula a:hover div{
+    /*box-shadow: 0px 0px 20px -1px inset;
+} */
+
+.pelicula-leyenda {
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.pelicula-banner{
+	height: 400px;
+}
+
+.field-element {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0 4px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.send-button {
+    color: #fff;
+    background-color: #272727;
+    border-color: #272727;
+    padding: 1em 2.5em;
+    border-width: 0;
+    cursor: pointer;
+    float: right;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.inicio-carousel{
+	position: absolute;
+	width: 100%;
+	left: 0;
+    /*background-color: #000;*/
+}
+
+.carousel-imagen{
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-pelicula-imagen{
+    /*width: 500px;*/
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sellos{
+    text-align: center;
+}
+
+.sello{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position: center;
+    margin: 20px;
+    display: inline-block;
+    width: 100px;
+}
+
+.slick-slide:not(.slick-active){
+    /*opacity: 0.7;*/
+}
+
+.inicio .redes-sociales{
+    margin: auto !important;
+    float: none !important;
+    text-align: center;
+}
+
+.inicio .redes-sociales div{
+    margin-top: 10px;
+}
+
+.redes-sociales div{
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin: 40px 0px 0px 10px;
+}
+
+.titulo_ficha_pelicula{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.facebook-icon{
+    background-image: url('../images/facebook.d403d305.png');
+}
+.vimeo-icon{
+    background-image: url('../images/vimeo.35ccc4d6.png')
+}
+
+.instagram-icon{
+  background-image: url('../images/instagram.5bc3d289.png')
+}
+
+.facebook-icon:hover{
+    background-image: url('../images/facebookHover.f96cfe51.png');
+}
+.vimeo-icon:hover{
+    background-image: url('../images/vimeoHover.f503eb72.png')
+}
+
+.instagram-icon:hover{
+  background-image: url('../images/instagramHover.a1b06214.png')
+}
+
+.back-load-images{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+    background-image: url("../images/lafiebre1.jpg"),url("../images/loscebues1.jpg"),url("../images/pluscalor1.jpg"),url("../images/democrata.jpg"),url("../images/derrames.jpg"),url("../images/lainviolabilidad.png"),url("../images/holaalosfiordos4.png"),url("../images/alex_piperno.jpg"),url("../images/juan_bobbio.jpg");
+    background-size: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 999;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.loading{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+    background-image: url('../images/logo3.f4b00a22.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1000;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.loading label{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: calc(50vh + 30px);
+    margin: auto;
+    font-size: 11px;
+}
+
+.biografia{
+    white-space: pre-wrap;
+}
+
+.pre-wrap{
+    white-space: pre-wrap;
+}
+
+.textos-contacto {
+  padding-top: 30px;
+}
+
+.textos-contacto p, a {
+  font-size: 14px !important;
+  margin-bottom: 5px;
+}
+
+.slider-mobile {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    height: 50px;
+  }
+
+  .navbar-toggle {
+    border: none;
+    padding: 30px 10px;
+  }
+
+  .carousel-imagen{
+    height: 400px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .nav>li>a {
+    font-size: 10px !important;
+    padding: 10px 10px;
+  }
+
+}
